@@ -27,5 +27,5 @@ public class CartItem {
 
     @Min(value = 1, message = "Quantidade precisa ser maior que 1")
     @Column(nullable = false)
-    private Integer quantidade;
+    private Integer quantity;
 }
